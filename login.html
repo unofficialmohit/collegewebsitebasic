@@ -1,0 +1,56 @@
+<HTML>
+<HEAD><TITLE>D.A.V. College | Login</TITLE></HEAD>
+<SCRIPT>
+function validateform()
+{
+var name=document.myform.username.value;
+var password=document.myform.password.value;
+
+if(name==null || name=="")
+{
+alert("User name can't be blank");
+return false;
+}
+else if(password.length<6)
+{
+alert("Password must be at least 6 characters long.");
+return false;
+}
+}
+</SCRIPT>
+
+<Body style="background-color:thistle"> 
+<CENTER><U><b><FONT Size=8 COLOR="NAVY" face="comic sans ms"><a href=index.html>D.A.V. COLLEGE SECTOR -10&nbsp&nbspCHANDIGARH</a></FONT></b></U></CENTER>  
+<IMG SRC="2.jpg" WIDTH="150" HEIGHT="200" ALIGN="LEFT"/>   
+<img src="1.jpg" width="1080" height="200"/> 
+<br>
+<table width="100%" border="1">
+<tr>         
+<th><A HREF="index.HTML"><font color=green>HOME</font></A></th>   
+<th><A HREF="login.HTML"><font color=orange>LOGIN</font></A></th>       
+<th><A HREF="ABOUTUS.HTML"><font color=green>ABOUT US</font></A></th>  <th><A HREF="DEPARTMENT.HTML"><font color=green>DEPARTMENT</font></A></TH>  
+<th><A HREF="photos.HTML"><font color=green>PHOTO GALLERY</font></A></th>  
+<th><A HREF="COURSES.HTml"><font color=green>COURSES</font></A></th>
+</tr>
+</table>
+<br><br><br><br><br>
+<h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStaff Login Window</h1>
+<form name="myform" onsubmit="return validateform()" align=center>
+<table border="1"  CELLPADDING=15 cellspacing="10" hspace=530 vspace=50 bgcolor=SKYBLUE>
+<tr>
+<td align="center"><b>Name<b></td>
+<td><input type="text" name="username"></td>
+</tr>
+<tr>
+<td align="center"><b>Password<b></td>
+<td><input type="password" name="password"></td>
+</tr>
+<tr>
+
+&nbsp&nbsp&nbsp&nbsp<td><input type="submit" value="Submit">
+</td>
+</table>
+</form>
+<font face="comic sans ms" size=6 color=navy align=center><a href=login2.html >Student Login Here</a></font>
+</body>
+</HTML>
