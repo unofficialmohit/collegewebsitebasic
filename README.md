@@ -1,6 +1,8 @@
 # collegewebsitebasic
 Project which i created in BCA First year , Basic College website  using HTML , JavaScript .
-Didn't had much knowledge of css at that time , so ui is not that rich. :-/
+Didn't had much knowledge of css at that time , so ui is not that interactive. :-/
+
+https://unofficialmohit.github.io/collegewebsitebasic/
 
 Screenshot of the website :
 
